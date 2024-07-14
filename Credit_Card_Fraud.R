@@ -3,7 +3,7 @@
 library(ranger)
 library(caret)
 library(data.table)
-creditcard_data <- read.csv("/Users/arpitabhattacharya/Desktop/Warwick /Internship/Github uploads/Credit Card Fraud/Credit-card-dataset/creditcard.csv")
+creditcard_data <- read.csv("/Users/sumukhsharma/Desktop/Warwick /Internship/Github uploads/Credit Card Fraud/Credit-card-dataset/creditcard.csv")
 # Data Exploration
 dim(creditcard_data)
 head(creditcard_data,6)
